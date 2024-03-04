@@ -2,19 +2,32 @@
 
 import React from 'react';
 
-function About () {
+function About1 () {
     return (
         <section id="about" className="about-section" data-bs-theme="dark">
             <div className="container-md about-section-table">
                 <div className="row">  
-                    <div className="col-12 col-md-5 about-section-column1">
-                        <img src="./img/perfil.png" alt="perfil" className="about-section-column1-img" />
-                        <h3 className="about-section-column1-name">I'm David</h3>
-                        <h2 className="about-section-column1-job">Mathematician & <br /> Web Developer</h2>
+                    <div className="col-12 col-md-6 about-section-column1">
+                        <h2 className="about-section-column1-name">I'm David</h2>
+                        <div id="carouselExample" className="carousel slide">
+                            <div className="carousel-inner about-carousel">
+                                <div className="carousel-item active ">
+                                    <img src="./img/perfil.png" className="d-block w-75 about-section-column1-img" alt="perfil" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img src="./img/perfil.png" className="d-block w-75 about-section-column1-img" alt="perfil" />
+                                </div>
+                            </div>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <h2 className="about-section-column1-job">Mathematician & Web Developer</h2>
                         <button type="button" className="btn btn-dark btn-lg about-section-column1-cv">Se CV</button>
                     </div>
-                    <div className="col-12 col-md-7 about-section-column2">
-                        <h1 className="about-section-column2-AboutMe">About me</h1>
+                    <div className="col-9 col-12 col-md-6 about-section-column2">
+                        <h2 className="about-section-column2-AboutMe">About me</h2>
                         <p className="about-section-column2-paragraph">
                             I'm a Cuban mathematician with 4 years of research experience in Spain.
                             <br />
@@ -22,7 +35,7 @@ function About () {
                             <br />
                             I have been involved for two years in a project called Biometric Cryptosystems for Post-Quantum Technologies, where I develop mathematically efficient algorithms implemented in C.
                         </p>    
-                        <h1 className="about-section-column2-interests">Interests</h1>
+                        <h2 className="about-section-column2-interests">Interests</h2>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -62,4 +75,4 @@ function About () {
     )
 }
 
-export default About;
+export default About1;
