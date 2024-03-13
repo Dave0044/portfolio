@@ -5,256 +5,38 @@ import React from 'react';
 
 function Footer () {
     return (
-        <section id="footer" className="footer-section">
-            <>
-                {/* Footer */}
-                <footer className="bg-body-tertiary text-center">
-                    {/* Grid container */}
-                    <div className="container p-4">
-                    {/* Section: Social media */}
-                    <section className="mb-4">
-                        {/* Facebook */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-facebook-f" />
-                        </a>
-                        {/* Twitter */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-twitter" />
-                        </a>
-                        {/* Google */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-google" />
-                        </a>
-                        {/* Instagram */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-instagram" />
-                        </a>
-                        {/* Linkedin */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-linkedin-in" />
-                        </a>
-                        {/* Github */}
-                        <a
-                        data-mdb-ripple-init=""
-                        className="btn btn-outline btn-floating m-1"
-                        href="#!"
-                        role="button"
-                        >
-                        <i className="fab fa-github" />
-                        </a>
-                    </section>
-                    {/* Section: Social media */}
-                    {/* Section: Form */}
-                    <section className="">
-                        <form action="">
-                        {/*Grid row*/}
-                        <div className="row d-flex justify-content-center">
-                            {/*Grid column*/}
-                            <div className="col-auto">
-                            <p className="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
+        <section id="footer" className="footer-section py-3 shadow">
+                    <div className="container py-3">
+                        <div className="row text-center py-2 ">
+                            <div className="col-md">
+                                Email: <a href="mailto:dlrlima1994@email.com" className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">dlrlima1994@email.com</a>
                             </div>
-                            {/*Grid column*/}
-                            {/*Grid column*/}
-                            <div className="col-md-5 col-12">
-                            {/* Email input */}
-                            <div data-mdb-input-init="" className="form-outline mb-4">
-                                <input
-                                type="email"
-                                id="form5Example24"
-                                className="form-control"
-                                />
-                                <label className="form-label" htmlFor="form5Example24">
-                                Email address
-                                </label>
+                            <div className="col-md">
+                                Phone: +34 644587587
                             </div>
+                            <div className="col-md">
+                                    <a className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover i-footer" href="https://github.com/Dave0044">
+                                        <i className="devicon-github-original px-3 bi fs-2"></i>
+                                    </a>  
+                                    <a className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover i-footer" href="https://www.linkedin.com/in/dave0044/">
+                                        <i className="devicon-linkedin-plain bi fs-2"></i>
+                                    </a>
                             </div>
-                            {/*Grid column*/}
-                            {/*Grid column*/}
-                            <div className="col-auto">
-                            {/* Submit button */}
-                            <button
-                                data-mdb-ripple-init=""
-                                type="submit"
-                                className="btn btn-outline mb-4"
-                            >
-                                Subscribe
-                            </button>
-                            </div>
-                            {/*Grid column*/}
                         </div>
-                        {/*Grid row*/}
-                        </form>
-                    </section>
-                    {/* Section: Form */}
-                    {/* Section: Text */}
-                    <section className="mb-4">
-                        <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                        distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-                        optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi
-                        voluptate quas.
-                        </p>
-                    </section>
-                    {/* Section: Text */}
-                    {/* Section: Links */}
-                    <section className="">
-                        {/*Grid row*/}
-                        <div className="row">
-                        {/*Grid column*/}
-                        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled mb-0">
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 2
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 3
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 4
-                                </a>
-                            </li>
-                            </ul>
-                        </div>
-                        {/*Grid column*/}
-                        {/*Grid column*/}
-                        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled mb-0">
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 2
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 3
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 4
-                                </a>
-                            </li>
-                            </ul>
-                        </div>
-                        {/*Grid column*/}
-                        {/*Grid column*/}
-                        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled mb-0">
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 2
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 3
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 4
-                                </a>
-                            </li>
-                            </ul>
-                        </div>
-                        {/*Grid column*/}
-                        {/*Grid column*/}
-                        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled mb-0">
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 2
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 3
-                                </a>
-                            </li>
-                            <li>
-                                <a className="text-body" href="#!">
-                                Link 4
-                                </a>
-                            </li>
-                            </ul>
-                        </div>
-                        {/*Grid column*/}
-                        </div>
-                        {/*Grid row*/}
-                    </section>
-                    {/* Section: Links */}
                     </div>
-                    {/* Grid container */}
-                    {/* Copyright */}
-                    <div
-                    className="text-center p-3"
-                    style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-                    >
-                        © 2024 Copyright: 
-                    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-                        David
-                    </a>
+                    <div className='container shadow rounded'>
+                        <div className="row text-center py-2 ">
+                            <div className="col-md">
+                                <a href="#privacy" className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Privacy Policy</a> 
+                            </div>
+                            <div className="col-md">
+                                Copyright © 2024 My Website. All rights reserved.
+                            </div>
+                            <div className="col-md">
+                                <a href="#terms" className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Terms of Service</a>
+                            </div>
+                        </div>
                     </div>
-                    {/* Copyright */}
-                </footer>
-                {/* Footer */}
-             </>
         </section>    
     )
 }

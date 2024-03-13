@@ -1,10 +1,9 @@
-// Skills.jsx
 import React from 'react';
 
-function Skills () {
+function Privacy () {
     return (
-        <section id="skills" className="skills-section">
-            <div className="container-md py-4 shadow rounded skills-section-table">
+        <section id="privacy" className="skills-section">
+            <div className="container-md skills-section-table">
                 <h1 className='shadow'>Skills</h1>
                     <div className="row d-flex py-5 skills-section-row1">
                         <div className="col-md skills-section-column11">
@@ -111,4 +110,4 @@ function Skills () {
     )
 }
 
-export default Skills;
+export default Privacy;

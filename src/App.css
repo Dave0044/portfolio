@@ -5,13 +5,15 @@
 /*------------------------------------------------------------------------------------------------------*/
 
 :root {
---light: rgb(190, 190, 190);
+
+--light-white: rgb(255, 255, 255);    
+--light: rgb(214, 212, 212);
 --dark: rgb(65, 65, 65);
 --ligth-transparent: rgb(200, 200, 200, 0.5);
---dark-transparent: rgb(35, 35, 35, 0.5);
---contrast-light: rgb(93, 224, 234);
---contrast-dark: rgb(0, 0, 255);
---contrast-light-transparent: rgb(23, 185, 249, 0.5);
+--dark-transparent: rgba(50, 50, 50, 0.5);
+--contrast-light: rgb(41, 211, 245);
+--contrast-dark: rgb(29, 191, 255);
+--contrast-light-transparent: rgb(93, 224, 234, 0.5);
 --contrast-dark-transparent: rgb(4, 4, 188, 0.5);
 --transparent: transparent;
 }
@@ -22,9 +24,21 @@
 
 h1 {
     color: var(--dark) !important;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+}
+h5 {
+    padding: 6px;
+    color: var(--contrast-light) !important;
 }
 
-
+section {
+    background-color: var(--light-white);
+    padding-top: 105px;
+    padding-bottom: 30px;
+}
 
 
 /*------------------------------------------------------------------------------------------------------*/
@@ -44,84 +58,65 @@ h1 {
     margin-left: 40px;
 }
 
-.navbar-nav > li > a {
+
+.dropdown-menu > li > a, .navbar-nav > li > a {
     color: var(--dark) !important; 
+    border-radius: 5px;
 }
 
-.navbar-nav > li > a:hover {
+.dropdown-menu > li > a:hover, .navbar-nav > li > a:hover {
     color: var(--contrast-light) !important;  
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    color: var(--contrast-dark) !important;
+.dropdown-menu > li > a:active, .dropdown-menu > li > a:focus, .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    color: var(--dark) !important;
+    background-color: var(--contrast-light) !important;
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------About--------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-
-.about-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+.about-section-table {
+    background-color: rgb(228, 255, 255);
 }
 
 
-.about-section-column1,
-.about-section-column2 {
-    padding-top: 20px;
+.row-item1 {
+    padding-bottom: 20px;
 }
 
 .about-section-column1-img {
-    width: 70% !important; /* Establece el ancho de la imagen al 50% del contenedor */
+    width: 60% !important; /* Establece el ancho de la imagen al 50% del contenedor */
 }
-
-
-.about-section-column2-interests {
-    text-align: center;
-    padding-top: 40px;
-}
-
 
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------Education-----------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.education-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+.img-fluid {
+    width: 70% !important; /* Establece el ancho de la imagen al 50% del contenedor */
 }
-
-
-
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------Work----------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.work-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------Skills----------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.skills-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+.skills-section-table {
+    background-color: rgb(228, 255, 255);
 }
 
+
 i {
-    font-size: 10ch;
+    font-size: 8ch;
     color: var(--contrast-light);
-    border-radius: 5px;
 }
 
 
@@ -129,26 +124,20 @@ i {
 /*----------------------------------------------Projects------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.projects-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------Contact-------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.contact-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+.contact-section-table {
+    background-color: rgb(228, 255, 255);
 }
 
 /*------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------Footer--------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
-.footer-section{
-    padding-top: 80px;
+.footer-section {
+    color: var(--dark) !important;
 }
