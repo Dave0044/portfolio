@@ -8,6 +8,39 @@ function Education () {
             <div className="container-md education-section-table">
                 <div className='col-md'>
                     <h1>Education</h1>
+
+
+                    <div className='container-md shadow rounded mb-5 container-education-work' id="item-1">         
+                <div className="row align-items-center p-4 education-section-row">
+                    <div className="col-md-7 education-section-column">
+                        <div className='container-md rounded p-2  bg-light'>   
+                            <div className="education-item" >
+                                <h4>College</h4>
+                                <div className="education-date">
+                                    <p>2011 - 2012</p>
+                                </div>
+                                <div className="education-content">
+                                    <p>Selected in recruiting young talents in mathematics through a competitive exam. The exam is carried out throughout the country to study the last pre-university year at the University, only the best 30 students are selected.</p>
+                                    <a href="https://www.uh.cu/2022/11/10/convocatoria-para-la-captacion-de-jovenes-de-onceno-grado-de-los-institutos-preuniversitarios-para-su-posterior-ingreso-en-las-carreras-de-ciencias-exactas-naturales-periodismo-p/" className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-5 education-section-column">
+                        <div className='container-md m-2 text-center'>
+                            <a href="https://www.uh.cu/inicio/">
+                                <img src="./img/uh.jpg" alt="University of Havana" className="img-fluid rounded" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
                 </div> 
                 <div className='col-md'>   
                     <div className="row education-section-row">

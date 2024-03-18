@@ -24,6 +24,7 @@ function Footer () {
                             </div>
                         </div>
                     </div>
+                    <div className=''>
                     <div className='container shadow rounded'>
                         <div className="row text-center py-2 ">
                             <div className="col-md">
@@ -36,6 +37,7 @@ function Footer () {
                                 <a href="#terms" className="link-info link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Terms of Service</a>
                             </div>
                         </div>
+                    </div>
                     </div>
         </section>    
     )

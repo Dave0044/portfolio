@@ -16,7 +16,7 @@ function Navbar() {
         <div className="container-fluid text-center">
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-info btn-sm" type="submit">Search</button>
+            <button className="btn rounded btn-outline-info btn-sm" type="submit">Search</button>
           </form>
         </div>
 
@@ -24,6 +24,25 @@ function Navbar() {
           <ul className="navbar-nav info navbarlinkcss">
             <li className="nav-item px-1">
               <a className="nav-link" href="#about">About</a>
+            </li>
+            <li className="nav-item px-1 dropdown">
+              <a className="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul className="dropdown-menu px-1">
+                <li><a className="dropdown-item" href="#projects">Research</a></li>
+                <li><a className="dropdown-item" href="#projects">Web</a></li>
+              </ul>
+            </li>
+            <li className="nav-item px-1 dropdown">
+              <a className="nav-link dropdown-toggle" href="#education" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Work
+              </a>
+              <ul className="dropdown-menu px-1">
+                <li><a className="dropdown-item" href="#list-item-1">Professor</a></li>
+                <li><a className="dropdown-item" href="#list-item-2">Particular Professor</a></li>
+                <li><a className="dropdown-item" href="#list-item-3">Researcher</a></li>
+              </ul>
             </li>
             <li className="nav-item px-1 dropdown">
               <a className="nav-link dropdown-toggle" href="#education" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,27 +56,8 @@ function Navbar() {
                 <li><a className="dropdown-item" href="#item-5">Postgrade</a></li>
               </ul>
             </li>
-            <li className="nav-item px-1 dropdown">
-              <a className="nav-link dropdown-toggle" href="#education" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Work
-              </a>
-              <ul className="dropdown-menu px-1">
-                <li><a className="dropdown-item" href="#list-item-1">Professor</a></li>
-                <li><a className="dropdown-item" href="#list-item-2">Particular Professor</a></li>
-                <li><a className="dropdown-item" href="#list-item-3">Researcher</a></li>
-              </ul>
-            </li>
             <li className="nav-item px-1">
               <a className="nav-link" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item px-1 dropdown">
-              <a className="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul className="dropdown-menu px-1">
-                <li><a className="dropdown-item" href="#projects">Research</a></li>
-                <li><a className="dropdown-item" href="#projects">Web</a></li>
-              </ul>
             </li>
             <li className="nav-item px-1">
               <a className="nav-link" href="#contact">Contact</a>
