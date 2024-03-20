@@ -15,7 +15,7 @@ function About () {
                             <button type="button" className="btn rounded btn-outline-info btn-lg btn-sm mb-2 about-section-column1-cv">See CV</button>
                         </div>
                         <div className="col-12 col-md-7 about-section-column2">
-                            <h1 className="text-center about-section-column2-AboutMe">About me</h1>
+                            <h1 class="display-5 fw-bolder mb-0 text-center"><span className="d-inline">About me</span></h1>
                             <p className="about-section-column2-paragraph">
                                 I am a Cuban mathematician with 4 years of research experience in Spain. Passionate and experienced Mathematics teacher.
                                 I worked as a Mathematical Researcher at the Polytechnic University of Catalonia in Barcelona, Spain.

@@ -47,7 +47,7 @@ function Projects () {
                                         <div className="card-body">
                                             <h5 className="card-title text-center py-1 px-3">Arithmetic and polynomial operations on Galois fields</h5>
                                             <p className="card-text py-1 px-3">
-                                            Addition, multiplication, division operation in the Galois Field GF(2^m) implemented in C, calling the functions from Python, using CTypes. Project created with Django.
+                                            Addition, multiplication, division operation in the Galois Field GF(2m) implemented in C, calling the functions from Python, using CTypes. Project created with Django.
                                             </p>
                                         </div>
                                         <ul className="list-group list-group-flush">
