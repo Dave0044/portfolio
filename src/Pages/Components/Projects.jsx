@@ -43,7 +43,7 @@ function Projects () {
                             <div className="row">
                                 <div className="col-md-12 d-flex align-items-center justify-content-center mb-10 py-3">
                                     <div className="card-math2 shadow rounded-4" style={{ width: "25rem"}}>
-                                        <img src="./img/cript.jpg" className="card-img-top rounded-4" alt="..." />
+                                        <img src="./img/galois.png" className="card-img-top rounded-4" alt="..." />
                                         <div className="card-body">
                                             <h5 className="card-title text-center py-1 px-3">Arithmetic and polynomial operations on Galois fields</h5>
                                             <p className="card-text py-1 px-3">
