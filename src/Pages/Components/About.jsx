@@ -3,6 +3,11 @@
 import React from 'react';
 
 function About () {
+    const openCV = () => {
+        // Abre el archivo PDF en una nueva ventana
+        window.open('/CV.pdf');
+    };
+
     return (
         <section id="about" className="about-section" >
             <div className="container rounded-4">
@@ -12,7 +17,7 @@ function About () {
                             <img src="./img/perfil.png" alt="perfil" className="shadow rounded-4 about-section-column1-img" />
                             <h3 className="about-section-column1-name">I'm David</h3>
                             <h2 className="about-section-column1-job">Mathematician & <br /> Web Developer</h2>
-                            <button type="button" className="btn rounded btn-outline-info btn-lg btn-sm mb-2 about-section-column1-cv">See CV</button>
+                            <button type="button" className="btn rounded btn-outline-info btn-lg btn-sm mb-2 about-section-column1-cv"  onClick={openCV}>See CV</button>
                         </div>
                         <div className="col-12 col-md-7 about-section-column2">
                             <h1 class="display-5 fw-bolder mb-0 text-center"><span className="d-inline">About me</span></h1>
